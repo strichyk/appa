@@ -10,7 +10,6 @@ public class testServiceA {
 	public void testPlus() {
 		IServiceA testServiceA = new ServiceA();
 		assertEquals(20, testServiceA.plus(10, 10));
-		//fail("Not yet implemented");
 	}
 
 }
